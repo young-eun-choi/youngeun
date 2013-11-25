@@ -59,3 +59,42 @@ background-color:blue;
     height: 512px;
     background-color: orange;
 }
+#mike{
+    width: 512px;
+    height: 512px;
+    -webkit-animation:anim 5s infinite;
+    -webkit-mask-image:url(file:///Users/choiyeong-eun/Downloads/empty/image/mike copy.png);
+}
+#stage{
+    background-color:orange;
+    margin-top:100px;
+    margin-left:100px;
+    width:500px;
+    height:300px;
+    opacity:.6;
+}
+
+#back{
+    width:100px;
+    height:100px;
+    background-color:blue;
+    margin:100px;
+    
+    padding:5px;
+}
+@-webkit-keyframes anim {
+    0% {
+        -webkit-transform: translate(0px, 100px);
+        background-color: white;
+    }
+    25% {
+        -webkit-transform: translate(150px, 100px);
+    }
+    50% {
+        -webkit-transform: translate(150px, 0px) rotateY(180deg);
+        background-color: blue;
+    }
+    100% {
+        -webkit-transform: translate(300px, 100px);
+    }
+}
