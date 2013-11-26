@@ -1,6 +1,6 @@
 
 body{
-background-color:black;
+background-color:green;
 }
 
 #mike{
@@ -92,10 +92,10 @@ background-color:black;
     }
     75% {
         -webkit-transform: translate(200px, 100px); rotateX(90deg);
-        background-color: pink;
+        background-color: white;
     }
     100% {
         -webkit-transform: translate(300px, 100px);
-        background-color: white;
+        background-color: pink;
     }
 }
