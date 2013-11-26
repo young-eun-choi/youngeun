@@ -65,7 +65,7 @@ background-color:black;
         background-color: white;
     }
     25% {
-        -webkit-transform: translate(200px, 100px);
+        -webkit-transform: translate(150px, 100px);
         background-color: yellow;
     }
     50% {
@@ -86,11 +86,12 @@ background-color:black;
        
     }
     25% {
-        -webkit-transform: translate(100px, 100px) scale(1.5);
+        -webkit-transform: translate(100px, 150px) scale(1.5);
         background-color: purple;
     }
     75% {
-        -webkit-transform: translate(200px, 100px); rotateZ(180deg);
+        -webkit-transform: translate(200px, 100px); rotateX(180deg);
+        background-color: pink;
     }
     100% {
         -webkit-transform: translate(300px, 100px);
