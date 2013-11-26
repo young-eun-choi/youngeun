@@ -31,7 +31,14 @@ background-color:black;
     -webkit-animation:anim 5s infinite;
     -webkit-mask-image:url(file:///Users/choiyeong-eun/Downloads/empty/image/mike copy.png);
 }
-
+#stage {
+    position: relative; 
+    margin: auto;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    -webkit-perspective: 300px center center;
+}
 #scene {
     position: absolute;
     width: 400px;
