@@ -22,8 +22,11 @@ background-color:black;
 
 }
 #mike{
-    width: 512px;
-    height: 512px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    -webkit-mask-size: 100px 100px;
+    -webkit-transform: translate(0px, 100px);
     -webkit-animation:anim 5s infinite;
     -webkit-mask-image:url(file:///Users/choiyeong-eun/Downloads/empty/image/mike copy.png);
 }
