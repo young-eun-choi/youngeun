@@ -29,7 +29,7 @@ background-color:black;
     -webkit-mask-size: 100px 100px;
     -webkit-transform: translate(0px, 100px);
     -webkit-animation:anim 5s infinite;
-    -webkit-mask-image:url(file:///Users/choiyeong-eun/Downloads/empty/image/mike.png);
+    -webkit-mask-image:url(file:///Users/choiyeong-eun/Desktop/image/wajoski.png);
 }
 #stage {
     position: relative; 
