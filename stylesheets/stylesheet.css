@@ -1,5 +1,6 @@
 
 body{
+
 background-color:#5de35d;
 }
 
@@ -87,7 +88,7 @@ background-color:#5de35d;
        
     }
     25% {
-        -webkit-transform: translate(100px, 0px) scale(1.5);
+        -webkit-transform: translate(100px, 50px) scale(1.5);
         background-color: purple;
     }
     75% {
