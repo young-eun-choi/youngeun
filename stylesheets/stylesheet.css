@@ -19,7 +19,7 @@ background-color:black;
     height: 100px;
     background-color: blue;
     -webkit-mask-size: 100px 100px;
-    -webkit-transform: translate(100px, 100px);
+    -webkit-transform: translate(0px, 400px);
     -webkit-mask-image: url(../images/sulley.png);
     -webkit-animation:sulley 5s infinite;
 }
@@ -77,11 +77,11 @@ background-color:black;
 }
 @-webkit-keyframes sulley {
     0% {
-        -webkit-transform: translate(0px, 150px);
+        -webkit-transform: translate(0px, 400px);
         background-color: white;
     }
     50% {
-        -webkit-transform: translate(300px, 0px) rotateX(180deg);
+        -webkit-transform: translate(0px, 150px) rotateY(360deg);
         background-color: red;
     }
     100% {
