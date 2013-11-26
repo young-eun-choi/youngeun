@@ -17,12 +17,9 @@ Theme Styles
 *******************************************************************************/
 
 body{
-background-color:blue;
+background-color:black;
 }
-#mike{
-   width: 512px;
-    height: 512px;
-    background-color: orange;
+
 }
 #mike{
     width: 512px;
