@@ -3,7 +3,6 @@ body{
 background-color:black;
 }
 
-}
 #mike{
     position: absolute;
     width: 100px;
@@ -11,8 +10,8 @@ background-color:black;
     background-color: green;
     -webkit-mask-size: 100px 100px;
     -webkit-transform: translate(0px, 100px);
-    -webkit-mask-image:url(../images/wajoski.png);
-    -webkit-animation:anim 5s infinite;
+    -webkit-mask-image: url(../images/wajoski.png);
+    -webkit-animation:anim 3s infinite;
 }
 #stage {
     position: relative; 
