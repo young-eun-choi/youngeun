@@ -19,7 +19,7 @@ background-color:black;
     height: 100px;
     background-color: blue;
     -webkit-mask-size: 100px 100px;
-    -webkit-transform: translate(0px, 400px);
+    -webkit-transform: translate(400px, 100px);
     -webkit-mask-image: url(../images/sulley.png);
     -webkit-animation:sulley 5s infinite;
 }
@@ -66,10 +66,11 @@ background-color:black;
     }
     25% {
         -webkit-transform: translate(150px, 100px);
+        background-color: yellow;
     }
     50% {
         -webkit-transform: translate(150px, 0px) rotateY(180deg);
-        background-color: blue;
+        background-color: orange;
     }
     100% {
         -webkit-transform: translate(300px, 100px);
@@ -77,12 +78,12 @@ background-color:black;
 }
 @-webkit-keyframes sulley {
     0% {
-        -webkit-transform: translate(0px, 400px);
+        -webkit-transform: translate(300px, 400px);
         background-color: white;
     }
     50% {
-        -webkit-transform: translate(0px, 150px) rotateY(360deg);
-        background-color: red;
+        -webkit-transform: translate(0px, 150px) rotateY(90deg);
+        background-color: purple;
     }
     100% {
         -webkit-transform: translate(150px, 100px);
