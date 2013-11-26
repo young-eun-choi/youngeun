@@ -30,22 +30,35 @@ background-color:blue;
     -webkit-animation:anim 5s infinite;
     -webkit-mask-image:url(file:///Users/choiyeong-eun/Downloads/empty/image/mike copy.png);
 }
-#stage{
-    background-color:orange;
-    margin-top:100px;
-    margin-left:100px;
-    width:500px;
-    height:300px;
-    opacity:.6;
+
+#scene {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    /* -webkit-transform: rotateX(-10deg) rotateY(20deg); */
+    -webkit-transform-style: preserve-3d;
 }
 
-#back{
-    width:100px;
-    height:100px;
-    background-color:blue;
-    margin:100px;
-    
-    padding:5px;
+#floor {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.5);
+    -webkit-transform: translate(0px, 100px) rotateX(90deg);
+    font-size: 100px;
+    text-align: center;
+    line-height: 200px;
+}
+
+#back {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 255, 0.5);
+    -webkit-transform: translate3d(0px, 0px, -100px);
+    font-size: 100px;
+    text-align: center;
+    line-height: 200px;
 }
 @-webkit-keyframes anim {
     0% {
