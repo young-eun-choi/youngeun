@@ -72,6 +72,10 @@ background-color:black;
         -webkit-transform: translate(150px, 0px) rotateY(180deg);
         background-color: orange;
     }
+    75% {
+        -webkit-transform: translate(150px, 100px);
+        background-color: yellow;
+    }
     100% {
         -webkit-transform: translate(300px, 100px);
     }
@@ -79,14 +83,14 @@ background-color:black;
 @-webkit-keyframes sulley {
     0% {
         -webkit-transform: translate(0px, 100px);
-        background-color: white;
+       
     }
     25% {
-        -webkit-transform: translate(0px, 200px) rotateY(90deg);
+        -webkit-transform: translate(100px, 0px);scale(1.5);
         background-color: purple;
     }
     75% {
-        -webkit-transform: translate(0px, 150px) rotateY(270deg);
+        -webkit-transform: translate(200px, 0px);
         background-color: white;
     }
     100% {
